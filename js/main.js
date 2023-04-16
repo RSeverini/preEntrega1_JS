@@ -10,8 +10,8 @@ function login() {
         compra();
         return;
       } else {
-        intentos--;
         alert(`Usuario o contraseña incorrectos. Te quedan ${intentos} intentos.`);
+        intentos--;
         password = prompt("Ingresa tu contraseña nuevamente:");
       }
     }
